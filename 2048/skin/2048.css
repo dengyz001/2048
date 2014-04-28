@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#C8C8C8;
+	width:640px;
+	height:1200px;
+	margin:0 auto;
+	font:24px arial;	
+}
+
+#header{
+	width:640px;
+	height:260px;
+	background:#fff;
+	padding-top:40px;
+	margin:0 auto;
+}
+
+#logo{
+	background:#ECC400 url(images/logo1.png) top left no-repeat;
+	width:200px;
+	height:200px;
+	margin-left:30px;
+	float:left;
+}
+
+#logo div{
+	background:url(images/logo2.png) bottom left no-repeat;
+	color:#fff;
+	font-size:3em;
+	font-weight:bold;
+	text-align:center;
+	width:200px;
+	height:192px;
+	line-height:192px;
+	margin-top:8px;
+	padding-bottom:8px;
+}
+
+.score{
+	background:#BBADA0 url(images/score1.png) top left no-repeat;
+	width:160px;
+	height:126px;
+	margin-left:30px;
+	float:left;
+}
+
+.score p{
+	height:53px;
+	line-height:53px;
+	padding:0;
+	margin:10px 0 0 0;
+	font-size:1em;
+	font-weight:bold;
+	color:#EEE4D5;
+	text-align:center;
+}
+
+.score p.last{
+	background:url(images/score2.png) bottom left no-repeat;
+	color:#fff;
+	font-size:1.5em;
+	font-weight:bold;
+	text-align:center;
+	width:160px;
+	height:53px;
+	line-height:53px;
+	margin:0;
+	padding:0 0 10px 0;
+}
+
+.options{
+	background:#ED995B url(images/opt1.png) top left no-repeat;
+	width:160px;
+	height:60px;
+	margin:20px 0 0 30px;
+	float:left;
+}
+
+.options div{
+	background:url(images/opt2.png) bottom left no-repeat;
+	color:#fff;
+	font-size:0.8em;
+	font-weight:bold;
+	text-align:center;
+	width:160px;
+	height:40px;
+	line-height:40px;
+	margin:0;
+	padding:10px 0;
+}
+
+#title{
+	clear:both;
+	background:#fff;
+	color:#776E65;
+	font-size:1.2em;
+	font-weight:bold;
+	text-align:center;	
+	padding:5px 0 50px 0;
+	margin:0;
+}
+
+#main{
+	background:#fff;
+	height:600px;	
+}
+
+#main ul li{
+	float:left;
+}
+
+#main ul{	
+	width:580px;
+	height:140px;
+	background:#BBADA0;
+	padding:0;
+	margin:0 0 0 30px;
+	list-style-type:none;
+}
+
+
+#main ul li{	
+	margin:20px 0 0 20px;
+	width:120px;
+	height:120px;
+}
+#main ul li p{	
+	font-weight:bold;
+	text-align:center;
+	margin:5px 0 0 0;
+	height:115px;
+	line-height:115px;
+	padding-bottom:5px;	
+}
+
+#main ul.firstUl{
+	background:#BBADA0 url(images/main1.png) top left no-repeat;
+}
+
+#main ul.lastUl{
+	padding-bottom:20px;
+	background:#BBADA0 url(images/main2.png) bottom left no-repeat;
+}
