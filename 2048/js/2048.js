@@ -8,10 +8,10 @@ var numCss = {'0':{'bgColor':'#CCC0B4','color':'','font-size':''},
 	32:{'bgColor':'#F67C5F','color':'#FFFFFF','font-size':'3em'},
 	64:{'bgColor':'#EA5937','color':'#FFFFFF','font-size':'3em'},
 	128:{'bgColor':'#F3D86B','color':'#FFFFFF','font-size':'2.5em'},
-	256:{'bgColor':'#F3D86B','color':'#FFFFFF','font-size':'2.5em'},
-	512:{'bgColor':'#F3D86B','color':'#FFFFFF','font-size':'2.5em'},
-	1024:{'bgColor':'#F3D86B','color':'#FFFFFF','font-size':'2em'},
-	2048:{'bgColor':'#F3D86B','color':'#FFFFFF','font-size':'2em'},
+	256:{'bgColor':'#F1D04B','color':'#FFFFFF','font-size':'2.5em'},
+	512:{'bgColor':'#E4C02A','color':'#FFFFFF','font-size':'2.5em'},
+	1024:{'bgColor':'#E2BA13','color':'#FFFFFF','font-size':'2em'},
+	2048:{'bgColor':'#ECC400','color':'#FFFFFF','font-size':'2em'},
 	4096:{'bgColor':'#F3D86B','color':'#FFFFFF','font-size':'2em'},
 	8192:{'bgColor':'#F3D86B','color':'#FFFFFF','font-size':'2em'},
 };
@@ -277,8 +277,20 @@ function isOver(){
 jQuery(function(){
 	inGrid('main');
 	jQuery('#main').show();
-	addRandomNum();
-	addRandomNum();	
+	/*addRandomNum();
+	addRandomNum();*/
+	addNum(2,4);
+	addNum(4,8);
+	addNum(3,2);
+	addNum(12,256);
+	addNum(10,512);
+	addNum(8,2);
+	addNum(1,1024);
+	addNum(5,16);
+	addNum(14,2048);
+	addNum(9,2048);
+	addNum(7,4096);
+	addNum(0,8192);
 
 	jQuery(this).keyup(function(event){		
 		var  face =event.keyCode;
